@@ -7,6 +7,7 @@ import json
 from formats import *
 
 cost_rprt_xls = pd.ExcelFile(r'C:\Users\bperez\Iovino Enterprises, LLC\M007-NYCHA-Coney Island Sites - Documents\General\08 - BUDGET & COST\Cost Codes\Contract Forecasting Spreadsheet\Period 9 Export 09.19.22.xlsx')
+
 cost_rprt = pd.read_excel(cost_rprt_xls)
 
 
